@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF88FD222534F16B004D2BDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88FD212534F16B004D2BDF /* AppDelegate.swift */; };
+		CF88FD242534F16B004D2BDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88FD232534F16B004D2BDF /* SceneDelegate.swift */; };
+		CF88FD262534F16B004D2BDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88FD252534F16B004D2BDF /* ViewController.swift */; };
+		CF88FD292534F16B004D2BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF88FD272534F16B004D2BDF /* Main.storyboard */; };
+		CF88FD2B2534F171004D2BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF88FD2A2534F171004D2BDF /* Assets.xcassets */; };
+		CF88FD2E2534F171004D2BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF88FD2C2534F171004D2BDF /* LaunchScreen.storyboard */; };
+		CF88FD392534F171004D2BDF /* fugazigramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88FD382534F171004D2BDF /* fugazigramTests.swift */; };
+		CF88FD442534F171004D2BDF /* fugazigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88FD432534F171004D2BDF /* fugazigramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF88FD352534F171004D2BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF88FD162534F16B004D2BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF88FD1D2534F16B004D2BDF;
+			remoteInfo = fugazigram;
+		};
+		CF88FD402534F171004D2BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF88FD162534F16B004D2BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF88FD1D2534F16B004D2BDF;
+			remoteInfo = fugazigram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF88FD1E2534F16B004D2BDF /* fugazigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fugazigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF88FD212534F16B004D2BDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF88FD232534F16B004D2BDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF88FD252534F16B004D2BDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF88FD282534F16B004D2BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF88FD2A2534F171004D2BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF88FD2D2534F171004D2BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF88FD2F2534F171004D2BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF88FD342534F171004D2BDF /* fugazigramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fugazigramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF88FD382534F171004D2BDF /* fugazigramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fugazigramTests.swift; sourceTree = "<group>"; };
+		CF88FD3A2534F171004D2BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF88FD3F2534F171004D2BDF /* fugazigramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fugazigramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF88FD432534F171004D2BDF /* fugazigramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fugazigramUITests.swift; sourceTree = "<group>"; };
+		CF88FD452534F171004D2BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF88FD1B2534F16B004D2BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF88FD312534F171004D2BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF88FD3C2534F171004D2BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF88FD152534F16A004D2BDF = {
+			isa = PBXGroup;
+			children = (
+				CF88FD202534F16B004D2BDF /* fugazigram */,
+				CF88FD372534F171004D2BDF /* fugazigramTests */,
+				CF88FD422534F171004D2BDF /* fugazigramUITests */,
+				CF88FD1F2534F16B004D2BDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF88FD1F2534F16B004D2BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF88FD1E2534F16B004D2BDF /* fugazigram.app */,
+				CF88FD342534F171004D2BDF /* fugazigramTests.xctest */,
+				CF88FD3F2534F171004D2BDF /* fugazigramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF88FD202534F16B004D2BDF /* fugazigram */ = {
+			isa = PBXGroup;
+			children = (
+				CF88FD212534F16B004D2BDF /* AppDelegate.swift */,
+				CF88FD232534F16B004D2BDF /* SceneDelegate.swift */,
+				CF88FD252534F16B004D2BDF /* ViewController.swift */,
+				CF88FD272534F16B004D2BDF /* Main.storyboard */,
+				CF88FD2A2534F171004D2BDF /* Assets.xcassets */,
+				CF88FD2C2534F171004D2BDF /* LaunchScreen.storyboard */,
+				CF88FD2F2534F171004D2BDF /* Info.plist */,
+			);
+			path = fugazigram;
+			sourceTree = "<group>";
+		};
+		CF88FD372534F171004D2BDF /* fugazigramTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF88FD382534F171004D2BDF /* fugazigramTests.swift */,
+				CF88FD3A2534F171004D2BDF /* Info.plist */,
+			);
+			path = fugazigramTests;
+			sourceTree = "<group>";
+		};
+		CF88FD422534F171004D2BDF /* fugazigramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF88FD432534F171004D2BDF /* fugazigramUITests.swift */,
+				CF88FD452534F171004D2BDF /* Info.plist */,
+			);
+			path = fugazigramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF88FD1D2534F16B004D2BDF /* fugazigram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF88FD482534F171004D2BDF /* Build configuration list for PBXNativeTarget "fugazigram" */;
+			buildPhases = (
+				CF88FD1A2534F16B004D2BDF /* Sources */,
+				CF88FD1B2534F16B004D2BDF /* Frameworks */,
+				CF88FD1C2534F16B004D2BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fugazigram;
+			productName = fugazigram;
+			productReference = CF88FD1E2534F16B004D2BDF /* fugazigram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF88FD332534F171004D2BDF /* fugazigramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF88FD4B2534F171004D2BDF /* Build configuration list for PBXNativeTarget "fugazigramTests" */;
+			buildPhases = (
+				CF88FD302534F171004D2BDF /* Sources */,
+				CF88FD312534F171004D2BDF /* Frameworks */,
+				CF88FD322534F171004D2BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF88FD362534F171004D2BDF /* PBXTargetDependency */,
+			);
+			name = fugazigramTests;
+			productName = fugazigramTests;
+			productReference = CF88FD342534F171004D2BDF /* fugazigramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF88FD3E2534F171004D2BDF /* fugazigramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF88FD4E2534F171004D2BDF /* Build configuration list for PBXNativeTarget "fugazigramUITests" */;
+			buildPhases = (
+				CF88FD3B2534F171004D2BDF /* Sources */,
+				CF88FD3C2534F171004D2BDF /* Frameworks */,
+				CF88FD3D2534F171004D2BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF88FD412534F171004D2BDF /* PBXTargetDependency */,
+			);
+			name = fugazigramUITests;
+			productName = fugazigramUITests;
+			productReference = CF88FD3F2534F171004D2BDF /* fugazigramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF88FD162534F16B004D2BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CF88FD1D2534F16B004D2BDF = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					CF88FD332534F171004D2BDF = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CF88FD1D2534F16B004D2BDF;
+					};
+					CF88FD3E2534F171004D2BDF = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CF88FD1D2534F16B004D2BDF;
+					};
+				};
+			};
+			buildConfigurationList = CF88FD192534F16B004D2BDF /* Build configuration list for PBXProject "fugazigram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF88FD152534F16A004D2BDF;
+			productRefGroup = CF88FD1F2534F16B004D2BDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF88FD1D2534F16B004D2BDF /* fugazigram */,
+				CF88FD332534F171004D2BDF /* fugazigramTests */,
+				CF88FD3E2534F171004D2BDF /* fugazigramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF88FD1C2534F16B004D2BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF88FD2E2534F171004D2BDF /* LaunchScreen.storyboard in Resources */,
+				CF88FD2B2534F171004D2BDF /* Assets.xcassets in Resources */,
+				CF88FD292534F16B004D2BDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF88FD322534F171004D2BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF88FD3D2534F171004D2BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF88FD1A2534F16B004D2BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF88FD262534F16B004D2BDF /* ViewController.swift in Sources */,
+				CF88FD222534F16B004D2BDF /* AppDelegate.swift in Sources */,
+				CF88FD242534F16B004D2BDF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF88FD302534F171004D2BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF88FD392534F171004D2BDF /* fugazigramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF88FD3B2534F171004D2BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF88FD442534F171004D2BDF /* fugazigramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF88FD362534F171004D2BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF88FD1D2534F16B004D2BDF /* fugazigram */;
+			targetProxy = CF88FD352534F171004D2BDF /* PBXContainerItemProxy */;
+		};
+		CF88FD412534F171004D2BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF88FD1D2534F16B004D2BDF /* fugazigram */;
+			targetProxy = CF88FD402534F171004D2BDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF88FD272534F16B004D2BDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF88FD282534F16B004D2BDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF88FD2C2534F171004D2BDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF88FD2D2534F171004D2BDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF88FD462534F171004D2BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF88FD472534F171004D2BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF88FD492534F171004D2BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22HV257GGM;
+				INFOPLIST_FILE = fugazigram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.fugazigram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF88FD4A2534F171004D2BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22HV257GGM;
+				INFOPLIST_FILE = fugazigram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.fugazigram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF88FD4C2534F171004D2BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22HV257GGM;
+				INFOPLIST_FILE = fugazigramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.fugazigramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fugazigram.app/fugazigram";
+			};
+			name = Debug;
+		};
+		CF88FD4D2534F171004D2BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22HV257GGM;
+				INFOPLIST_FILE = fugazigramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.fugazigramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fugazigram.app/fugazigram";
+			};
+			name = Release;
+		};
+		CF88FD4F2534F171004D2BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22HV257GGM;
+				INFOPLIST_FILE = fugazigramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.fugazigramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fugazigram;
+			};
+			name = Debug;
+		};
+		CF88FD502534F171004D2BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22HV257GGM;
+				INFOPLIST_FILE = fugazigramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.fugazigramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fugazigram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF88FD192534F16B004D2BDF /* Build configuration list for PBXProject "fugazigram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF88FD462534F171004D2BDF /* Debug */,
+				CF88FD472534F171004D2BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF88FD482534F171004D2BDF /* Build configuration list for PBXNativeTarget "fugazigram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF88FD492534F171004D2BDF /* Debug */,
+				CF88FD4A2534F171004D2BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF88FD4B2534F171004D2BDF /* Build configuration list for PBXNativeTarget "fugazigramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF88FD4C2534F171004D2BDF /* Debug */,
+				CF88FD4D2534F171004D2BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF88FD4E2534F171004D2BDF /* Build configuration list for PBXNativeTarget "fugazigramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF88FD4F2534F171004D2BDF /* Debug */,
+				CF88FD502534F171004D2BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF88FD162534F16B004D2BDF /* Project object */;
+}
