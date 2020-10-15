@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="fugazigram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginView" id="BYZ-38-t0r" customClass="LoginViewController" customModule="fugazigram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -166,6 +166,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="rce-vj-i1x">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" image="escape" catalog="system" id="2Qr-vR-vSs">
+                            <connections>
+                                <action selector="onLogout:" destination="EeM-8B-Jvs" id="Zi6-i5-GDq"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="insta_camera_btn" id="tHg-LE-FP6">
                             <connections>
                                 <segue destination="4V9-gS-LGV" kind="presentation" id="Uqk-Hf-xAF"/>
@@ -245,7 +250,7 @@
         <!--Navigation Controller-->
         <scene sceneID="eC1-I6-1nf">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OaX-J5-x2D" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavController" automaticallyAdjustsScrollViewInsets="NO" id="OaX-J5-x2D" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Tob-Va-AsH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -262,6 +267,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="escape" catalog="system" width="128" height="121"/>
         <image name="image_placeholder" width="375" height="375"/>
         <image name="insta_camera_btn" width="25" height="25"/>
         <image name="instagram_logo" width="255" height="108"/>
