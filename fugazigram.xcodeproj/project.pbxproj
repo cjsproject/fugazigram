@@ -17,6 +17,8 @@
 		CF88FD442534F171004D2BDF /* fugazigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88FD432534F171004D2BDF /* fugazigramUITests.swift */; };
 		CF88FD692534F919004D2BDF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88FD682534F919004D2BDF /* FeedViewController.swift */; };
 		CF88FD712534F931004D2BDF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88FD702534F931004D2BDF /* LoginViewController.swift */; };
+		CF88FD7625365C0E004D2BDF /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88FD7525365C0E004D2BDF /* cameraViewController.swift */; };
+		CF88FD862537D321004D2BDF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88FD852537D321004D2BDF /* PostCell.swift */; };
 		E42A6D4AFC710C248E8BCCA3 /* Pods_fugazigram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5692A16EB5A124B41707032 /* Pods_fugazigram.framework */; };
 		E8D64A6AA5C694A8042BF0CE /* Pods_fugazigramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF379F656389278E3592325 /* Pods_fugazigramTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +62,8 @@
 		CF88FD452534F171004D2BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF88FD682534F919004D2BDF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		CF88FD702534F931004D2BDF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CF88FD7525365C0E004D2BDF /* cameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
+		CF88FD852537D321004D2BDF /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		E5692A16EB5A124B41707032 /* Pods_fugazigram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fugazigram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E15874C85BDBBCB9B0B1F7 /* Pods_fugazigram_fugazigramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fugazigram_fugazigramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADBF648DF6309ECAE21520C /* Pods-fugazigram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fugazigram.release.xcconfig"; path = "Target Support Files/Pods-fugazigram/Pods-fugazigram.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 				CF88FD2F2534F171004D2BDF /* Info.plist */,
 				CF88FD682534F919004D2BDF /* FeedViewController.swift */,
 				CF88FD702534F931004D2BDF /* LoginViewController.swift */,
+				CF88FD7525365C0E004D2BDF /* cameraViewController.swift */,
+				CF88FD852537D321004D2BDF /* PostCell.swift */,
 			);
 			path = fugazigram;
 			sourceTree = "<group>";
@@ -411,8 +417,10 @@
 			files = (
 				CF88FD712534F931004D2BDF /* LoginViewController.swift in Sources */,
 				CF88FD222534F16B004D2BDF /* AppDelegate.swift in Sources */,
+				CF88FD7625365C0E004D2BDF /* cameraViewController.swift in Sources */,
 				CF88FD242534F16B004D2BDF /* SceneDelegate.swift in Sources */,
 				CF88FD692534F919004D2BDF /* FeedViewController.swift in Sources */,
+				CF88FD862537D321004D2BDF /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
