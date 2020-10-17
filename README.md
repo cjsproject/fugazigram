@@ -8,19 +8,39 @@ Time spent: 10 hours spent in total
 
 The following **required** functionality is completed:
 
+**Part 1**
 - [x] User sees app icon in home screen and styled launch screen. (1pt)
 - [x] User can sign up to create a new account. (1pt)
 - [x] User can log in. (1pt)
 - [x] User can take a photo, add a caption, and post it to the server. (3pt)
 - [x] User can view the last 20 posts. (4pts)
 
+**Part 2**
+- [x] User stays logged in across restarts. (1pt)
+- [x] User can log out. (1pt)
+- [x] User can view comments on a post. (3pts)
+- [x] User can add a new comment. (5pts)
+
+
 The following **bonus** features are implemented:
 
-- [ ] User can pull to refresh. (1pt)
-- [ ] User can load past tweets infinitely. (2pts)
+**Part 1**
+- [x] User can pull to refresh. (1pt)
+- [x] User can load past tweets infinitely. (2pts)
+
+**Part 2**
+- [ ] User can add a profile picture. (2pts)
+- [ ] Profile pictures are shown for posts and comments. (2pts)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
+**Part 1**
+
 <img src='http://g.recordit.co/ooWjA0mnOb.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+**Part 2**
+
+<img src='http://g.recordit.co/qGhFebHys3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
